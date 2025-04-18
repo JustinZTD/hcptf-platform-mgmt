@@ -17,7 +17,7 @@ module "random_pets_project" {
   project_name = "random-pets-aplication"
 
   team_access = {
-    "terraform-platform-team" = "admin"
-    "random-pets-app-team" = "writer"
+    terraform-platform-team = "admin"
+    random-pets-app-team = "writer"
   }
 }
