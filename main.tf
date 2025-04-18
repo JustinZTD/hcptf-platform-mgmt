@@ -14,7 +14,7 @@ module "random_pets_1_project" {
   version = "0.1.0"
 
   organization = var.organization
-  project_name = "random-pets-aplication"
+  project_name = "random-pets-1-application"
 
   team_access = {
     terraform-platform-team = "admin"
