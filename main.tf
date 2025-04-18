@@ -9,7 +9,7 @@ terraform {
 
 provider "tfe" {}
 
-module "random_pets_project" {
+module "random_pets_1_project" {
   source  = "alexbasista/projecter/tfe"
   version = "0.1.0"
 
